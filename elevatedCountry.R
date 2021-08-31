@@ -22,7 +22,7 @@ iran_mat_reduced %>%
 
 render_camera(zoom = 0.6, phi = 89, theta = 0, fov = 0)
 
-render_highquality(filename = "iran.png", sample = 10, width = 6000, height = 6000 )
+render_highquality(filename = "iran.png", samples = 100, width = 6000, height = 6000, parallel = TRUE)
 
 
 
